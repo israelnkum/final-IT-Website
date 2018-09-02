@@ -1,9 +1,6 @@
 @extends('layouts.app')
 @section('content')
 
-    {{--@foreach($newData as $data)--}}
-    {{--{{$data}}--}}
-    {{--@endforeach--}}
     <div class="main-content">
 
         <!-- Section: inner-header -->

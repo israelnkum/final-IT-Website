@@ -10,7 +10,7 @@ class FilesController extends Controller
 
     public function welcomeIndex() {
       $data = scandir('storage/images/gallery/handingOver/');
-$newData =[];
+    $newData =[];
         for ($i = 2; $i<10;$i++){
              if ($data[$i] != '.' || $data[$i] != '..'){
 
