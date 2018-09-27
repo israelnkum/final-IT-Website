@@ -8,19 +8,25 @@
                         <img class="logo-scrolled-to-fixed" src="{{'storage/images/logo/logo-wide.png'}}" alt="">
                     </a>
                     <ul class="menuzord-menu">
-                        <li class=""><a href="/">Home</a></li>
-                        <li><a href="#">Academics</a>
+                        <li class="{{ Request::is('/') ? 'active' : '' }}">
+                            <a href="/">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Academics</a>
                             <ul class="dropdown">
                                 <li><a href="/#academic-calendar">Academic Calendar</a></li>
-                                <li><a href="/pastQuestion">Past Questions</a></li>
+                                <li><a href="{{route('pastQuestion')}}">Past Questions</a></li>
                                 <li><a href="http://records.ttuportal.com" target="_blank">Student Portal</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">News &amp Event</a>
+                        <li class="{{ Request::is('gallery') || Request::is('/#latest-news') ? 'active' : '' }}">
+                            <a href="#">News &amp Event</a>
                             <ul class="dropdown">
                                 <li><a href="/#latest-news">Latest News</a></li>
                                 <li><a href="/#latest-news">Upcoming Event</a> </li>
-                                <li><a href="/gallery">Gallery</a></li>
+                                <li>
+                                    <a href="{{route('gallery')}}">Gallery</a>
+                                </li>
                             </ul>
                         </li>
                         <li><a href="#">Featured Links</a>
@@ -31,8 +37,12 @@
                                 <li><a class="dropdown-item" href="https://ttuportal.com" target="_blank">Semester Registration</a></li>
                             </ul>
                         </li>
-                        <li><a href="/about-us">About us</a></li>
-                        <li><a href="/contact-us">Contact us</a></li>
+                        <li class="{{ Request::is('about-us') ? 'active' : '' }}">
+                            <a href="{{route('about-us')}}">
+                                About us
+                            </a>
+                        </li>
+                        <li><a href="{{route('contact-us')}}">Contact us</a></li>
                         {{--<li><a href="javascript:void(0)">Mega Menu <span class="label label-danger">New</span></a>--}}
                             {{--<div class="megamenu megamenu-bg-img">--}}
                                 {{--<div class="megamenu-row">--}}

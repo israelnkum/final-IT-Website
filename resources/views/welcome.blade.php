@@ -27,7 +27,7 @@
                             <!-- SLIDE 1 -->
                             <li data-index="rs-1" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="storage/images/bg/bg1.jpg" data-rotate="0"  data-fstransition="fade" data-saveperformance="off" data-title="Web Show" data-description="">
                                 <!-- MAIN IMAGE -->
-                                <img src="{{'storage/images/bg/bg1.jpg'}}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                                <img src="{{asset('storage/images/bg/bg1.jpg')}}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                                 <!-- LAYERS -->
                                 <!-- LAYER NR. 1 -->
                                 <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme rs-parallaxlevel-0 bg-theme-colored-transparent-3"
@@ -74,7 +74,7 @@
                             <!-- SLIDE 2 -->
                             <li data-index="rs-2" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="storage/images/bg/bg2.jpg" data-rotate="0"  data-fstransition="fade" data-saveperformance="off" data-title="Web Show" data-description="">
                                 <!-- MAIN IMAGE -->
-                                <img src="storage/images/bg/bg2.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                                <img src="{{asset('storage/images/bg/bg2.jpg')}}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                                 <!-- LAYERS -->
                                 <!-- LAYER NR. 1 -->
                                 <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme rs-parallaxlevel-0 bg-theme-colored-transparent-4"
@@ -123,7 +123,7 @@
                             <!-- SLIDE 3 -->
                             <li data-index="rs-3" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="storage/images/bg/bg3.jpg" data-rotate="0"  data-fstransition="fade" data-saveperformance="off" data-title="Web Show" data-description="">
                                 <!-- MAIN IMAGE -->
-                                <img src="storage/images/bg/bg3.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                                <img src="{{asset('storage/images/bg/bg3.jpg')}}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                                 <!-- LAYERS -->
                                 <!-- LAYER NR. 1 -->
                                 <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme rs-parallaxlevel-0 bg-theme-colored-transparent-4"
@@ -355,7 +355,7 @@
                                             <div class="entry-date media-left text-center flip bg-theme-colored border-top-theme-colored2-3px pt-5 pr-15 pb-5 pl-15">
                                                 <ul>
                                                     <li class="font-16 text-white font-weight-600">28</li>
-                                                    <li class="font-12 text-white text-uppercase">Feb</li>
+                                                    <li class="font-12 text-white text-uppercase">Nov</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -383,8 +383,8 @@
                                             </div>
                                             <div class="entry-date media-left text-center flip bg-theme-colored border-top-theme-colored2-3px pt-5 pr-15 pb-5 pl-15">
                                                 <ul>
-                                                    <li class="font-16 text-white font-weight-600">28</li>
-                                                    <li class="font-12 text-white text-uppercase">Feb</li>
+                                                    <li class="font-16 text-white font-weight-600">09</li>
+                                                    <li class="font-12 text-white text-uppercase">Oct</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -472,11 +472,26 @@
                             <h3 class="text-uppercase font-weight-600 mt-0 mt-sm-30 text-theme-colored2">Upcoming <span class="text-theme-colored">Events</span></h3>
                             <div class="double-line-bottom-theme-colored-2"></div>
                             <article>
+                                <div class="event-small media sm-maxwidth400 mt-5 mb-0 pt-10 pb-15">
+                                    <div class="event-date text-center">
+                                        <ul class="text-white">
+                                            <li class="font-18 font-weight-700 border-bottom">08</li>
+                                            <li class="font-14 text-center text-uppercase mt-5">Oct</li>
+                                        </ul>
+                                    </div>
+                                    <div class="event-content pt-5">
+                                        <h5 class="media-heading font-16 font-weight-600 mb-5"><a href="#">Faculty Week Celebration</a></h5>
+                                        <span class="mr-10"><i class="fa fa-clock-o text-theme-colored2"></i> 8.00 am - 05.00 pm</span>
+                                        <span> <i class="fa fa-map-marker text-theme-colored2"></i>Takoradi Technical Univeristy</span>
+                                    </div>
+                                </div>
+                            </article>
+                            <article>
                                 <div class="event-small media sm-maxwidth400 mt-0 mb-0 pt-0 pb-15">
                                     <div class="event-date text-center">
                                         <ul class="text-white">
-                                            <li class="font-18 font-weight-700 border-bottom">28</li>
-                                            <li class="font-14 text-center text-uppercase mt-5">Feb</li>
+                                            <li class="font-18 font-weight-700 border-bottom">09</li>
+                                            <li class="font-14 text-center text-uppercase mt-5">Oct</li>
                                         </ul>
                                     </div>
                                     <div class="event-content pt-5">
@@ -495,24 +510,9 @@
                                         </ul>
                                     </div>
                                     <div class="event-content pt-5">
-                                        <h5 class="media-heading font-16 font-weight-600 mb-5"><a href="#">ICT Entreprenurship Club</a></h5>
+                                        <h5 class="media-heading font-16 font-weight-600 mb-5"><a href="#">Bits And Bytes</a></h5>
                                         {{--<span class="mr-10"><i class="fa fa-clock-o text-theme-colored2"></i> 5.00 pm - 7.30 pm</span>--}}
                                         <span> <i class="fa fa-map-marker text-theme-colored2"></i> TTU</span>
-                                    </div>
-                                </div>
-                            </article>
-                            <article>
-                                <div class="event-small media sm-maxwidth400 mt-5 mb-0 pt-10 pb-15">
-                                    <div class="event-date text-center">
-                                        <ul class="text-white">
-                                            <li class="font-18 font-weight-700 border-bottom">28</li>
-                                            <li class="font-14 text-center text-uppercase mt-5">Feb</li>
-                                        </ul>
-                                    </div>
-                                    <div class="event-content pt-5">
-                                        <h5 class="media-heading font-16 font-weight-600 mb-5"><a href="#">Excursion</a></h5>
-                                        <span class="mr-10"><i class="fa fa-clock-o text-theme-colored2"></i> 6.00 am - 10.00 pm</span>
-                                        <span> <i class="fa fa-map-marker text-theme-colored2"></i> Cape Coast</span>
                                     </div>
                                 </div>
                             </article>
@@ -559,13 +559,13 @@
                                 <div class="col-xs-12 col-sm-12 col-md-12">
                                     <h2 class="mt-0 line-height-1"><span class="text-theme-colored2">Contact us</span></h2>
                                     <div class="double-line-bottom-theme-colored-2 mt-15 mb-10"></div>
-                                    <p class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cum autem assumenda.</p>
+                                    <p class="mb-15">Need any help?</p>
                                 </div>
                                 <div class="col-xs-12 col-sm-12 col-md-12">
                                     <div class="icon-box left media bg-white border-1px p-15 mb-15"> <a class="media-left pull-left" href="#"> <i class="pe-7s-map-2 text-theme-colored2"></i></a>
                                         <div class="media-body">
-                                            <h5 class="mt-0">Our Office Location</h5>
-                                            <p>#405, Lan Streen, Los Vegas, USA</p>
+                                            <h5 class="mt-0">Takoradi Technical University, Auditorium</h5>
+                                            {{--<p>#405, Lan Streen, Los Vegas, USA</p>--}}
                                         </div>
                                     </div>
                                 </div>
@@ -581,7 +581,7 @@
                                     <div class="icon-box left media bg-white border-1px p-15 mb-15"> <a class="media-left pull-left" href="#"> <i class="pe-7s-mail text-theme-colored2"></i></a>
                                         <div class="media-body">
                                             <h5 class="mt-0">Email Address</h5>
-                                            <p>supporte@yourdomin.com</p>
+                                            <p>itus@yahoo.com</p>
                                         </div>
                                     </div>
                                 </div>
@@ -720,13 +720,13 @@
                                     <div class="panel-heading" role="tab" id="heading4">
                                         <h6 class="panel-title">
                                             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion6" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                                Why Should is Join ICT Entreprenuership Club?
+                                                Why Should is Join Bits and Byte?
                                             </a>
                                         </h6>
                                     </div>
                                     <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
                                         <div class="panel-body">
-                                            ICT Entrepreneurship Club helps it members to gain hands on training of what they do in class
+                                            Bits and Bytes helps it members to gain hands on training of what they do in class
                                             and it also help serious members to get scholarship and work after school.
                                         </div>
                                     </div>

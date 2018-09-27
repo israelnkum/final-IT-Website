@@ -19,20 +19,14 @@ Route::get('/', function () {
 //    return view('gallery');
 //});
 
-Route::get('/contact-us', function () {
-    return view('contact-us');
-});
 
+Route::get('/contact-us','PagesController@contact')->name('contact-us');
 Route::get('/', 'FilesController@welcomeIndex');
+Route::get('/gallery','FilesController@gallery')->name('gallery');
 
-Route::get('/gallery','FilesController@gallery');
+Route::get('/about-us','FilesController@aboutLectures')->name('about-us');
 
-Route::get('/about-us','FilesController@aboutLectures');
+Route::get('/pastQuestion', 'HndController@store')->name('pastQuestion');
 
-Route::get('/pastQuestion', function () {
-    return view('pastQuestion');
-});
-//Route::post('/store1','PastQuestionController@store1');
-
-Route::post('/store','HndLevel100Controller@store');
+Route::post('/store','HndController@store');
 Route::post('/store1','diplomaController@store');

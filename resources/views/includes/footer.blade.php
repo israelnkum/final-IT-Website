@@ -3,12 +3,12 @@
         <div class="row">
             <div class="col-sm-6 col-md-3">
                 <div class="widget dark">
-                    <img class="mt-5 mb-20" alt="" src="{{'images/logo-white-footer.png'}}">
+                    <img class="mt-5 mb-20" alt="" src="{{'storage/images/logo/logo-wide-white.png'}}">
                     <p>Takoradi Technical University, Auditorium</p>
                     <ul class="list-inline mt-5">
                         <li class="m-0 pl-10 pr-10"> <i class="fa fa-phone text-white mr-5"></i> <a class="text-gray" href="#">+233 24 477 8943</a> </li>
                         <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope-o text-white mr-5"></i> <a class="text-gray" href="#">itsu@yahoo.com</a> </li>
-                        <li class="m-0 pl-10 pr-10"> <i class="fa fa-globe text-white mr-5"></i> <a class="text-gray" href="#">www.yourdomain.com</a> </li>
+                        <li class="m-0 pl-10 pr-10"> <i class="fa fa-globe text-white mr-5"></i> <a class="text-gray" href="#">www.ttuitsu.com</a> </li>
                     </ul>
                     <ul class="styled-icons icon-sm icon-bordered icon-circled clearfix mt-10">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -35,6 +35,7 @@
                     <h4 class="widget-title line-bottom-theme-colored-2">New Programs Offered</h4>
                     <ul class="angle-double-right list-border">
                         <li><a href="#">HND ICT</a></li>
+                        <li><a href=#">Profession Diploma Information Technology</a></li>
                         <li><a href=#">Diploma in Software Engeneering</a></li>
                         <li><a href="#">Diploma in Networking</a></li>
                         <li><a href="#">Diploma in Hardware Technology</a></li>
@@ -45,7 +46,7 @@
             </div>
             <div class="col-sm-6 col-md-3">
                 <div class="widget dark">
-                    <h4 class="widget-title line-bottom-theme-colored-2">Optional Class</h4>
+                    <h4 class="widget-title line-bottom-theme-colored-2">Optional Meeting(s)</h4>
                     <div class="opening-hours">
                         <ul class="list-border">
                             <li class="clearfix"> <span> Mon - Tues :  </span>

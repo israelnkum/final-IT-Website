@@ -844,7 +844,7 @@ blockquote.gray.bg-theme-colored2 footer {
 }
 /* -------- bg-theme-color ---------- */
 .bg-theme-colored2 {
-  background-color: #EF5861 !important;
+  background-color: cornflowerblue !important;
 }
 .bg-hover-theme-colored2:hover {
   background: #EF5861 !important;
@@ -1195,8 +1195,8 @@ fieldset[disabled] .btn-gray.btn-theme-colored2.focus {
 */
 .btn-theme-colored2 {
   color: #fff;
-  background-color: #EF5861;
-  border-color: #EF5861;
+  background-color: cornflowerblue !important;
+  border-color: royalblue;
 }
 .btn-theme-colored2:focus,
 .btn-theme-colored2.focus {
@@ -1206,8 +1206,8 @@ fieldset[disabled] .btn-gray.btn-theme-colored2.focus {
 }
 .btn-theme-colored2:hover {
   color: #fff;
-  background-color: #eb2935;
-  border-color: #ea202c;
+  background-color: darkblue !important;
+  border-color: darkblue;
 }
 .btn-theme-colored2:active,
 .btn-theme-colored2.active,

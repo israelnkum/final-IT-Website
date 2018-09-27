@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class HndLevel100Controller extends Controller
+class HndController extends Controller
 {
    public function store(){
        $newData4Path ="";

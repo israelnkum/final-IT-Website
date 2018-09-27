@@ -11,7 +11,7 @@
                             <h2 class="text-white font-36">Past Questions</h2>
                             <ol class="breadcrumb text-left mt-10 white">
                                 <li><a href="/">Home</a></li>
-                                <li class="active"><a href="/about-us">Past Questions</a></li>
+                                <li class="active"><a href="/pastQuestion">Past Questions</a></li>
                             </ol>
                         </div>
                     </div>
@@ -59,7 +59,7 @@
                                                                     <div class="panel-heading " role="tab" id="hndLevel100SemIHeading">
                                                                         <h6 class="panel-title">
 
-                                                                            {!! Form::open(['action'=>'HndLevel100Controller@store','method'=>'POST']) !!}
+                                                                            {!! Form::open(['action'=>'HndController@store','method'=>'POST']) !!}
                                                                             {{Form::submit('Semester I',['name'=>'btnLvl100sem1','class'=>'btn btn-primary  text-dark'])}}
                                                                             {!! Form::close() !!}
                                                                         </h6>
@@ -68,7 +68,7 @@
                                                                 <div class="panel panel-default">
                                                                     <div class="panel-heading" role="tab" id="hndLevel100SemIIHeading">
                                                                         <h6 class="panel-title">
-                                                                            {!! Form::open(['action'=>'HndLevel100Controller@store','method'=>'POST']) !!}
+                                                                            {!! Form::open(['action'=>'HndController@store','method'=>'POST']) !!}
                                                                             {{Form::submit('Semester II',['name'=>'btnLvl100sem2','class'=>'btn btn-primary  text-dark'])}}
                                                                             {!! Form::close() !!}
                                                                         </h6>
@@ -93,7 +93,7 @@
                                                                 <div class="panel panel-default">
                                                                     <div class="panel-heading " role="tab" id="hndLevel100SemIHeading">
                                                                         <h6 class="panel-title">
-                                                                            {!! Form::open(['action'=>'HndLevel100Controller@store','method'=>'POST']) !!}
+                                                                            {!! Form::open(['action'=>'HndController@store','method'=>'POST']) !!}
                                                                             {{Form::submit('Semester I',['name'=>'btnLvl200sem1','class'=>'btn btn-primary  text-dark'])}}
                                                                             {!! Form::close() !!}
                                                                         </h6>
@@ -102,7 +102,7 @@
                                                                 <div class="panel panel-default">
                                                                     <div class="panel-heading" role="tab" id="hndLevel100SemIIHeading">
                                                                         <h6 class="panel-title">
-                                                                            {!! Form::open(['action'=>'HndLevel100Controller@store','method'=>'POST']) !!}
+                                                                            {!! Form::open(['action'=>'HndController@store','method'=>'POST']) !!}
                                                                             {{Form::submit('Semester II',['name'=>'btnLvl200sem2','class'=>'btn btn-primary  text-dark'])}}
                                                                             {!! Form::close() !!}
                                                                         </h6>
@@ -127,7 +127,7 @@
                                                                 <div class="panel panel-default">
                                                                     <div class="panel-heading " role="tab" id="hndLevel100SemIHeading">
                                                                         <h6 class="panel-title">
-                                                                            {!! Form::open(['action'=>'HndLevel100Controller@store','method'=>'POST']) !!}
+                                                                            {!! Form::open(['action'=>'HndController@store','method'=>'POST']) !!}
                                                                             {{Form::submit('Semester I',['name'=>'btnLvl300sem1','class'=>'btn btn-primary  text-dark'])}}
                                                                             {!! Form::close() !!}
                                                                         </h6>
@@ -136,7 +136,7 @@
                                                                 <div class="panel panel-default">
                                                                     <div class="panel-heading" role="tab" id="hndLevel100SemIIHeading">
                                                                         <h6 class="panel-title">
-                                                                            {!! Form::open(['action'=>'HndLevel100Controller@store','method'=>'POST']) !!}
+                                                                            {!! Form::open(['action'=>'HndController@store','method'=>'POST']) !!}
                                                                             {{Form::submit('Semester II',['name'=>'btnLvl300sem2','class'=>'btn btn-primary  text-dark'])}}
                                                                             {!! Form::close() !!}
                                                                         </h6>
